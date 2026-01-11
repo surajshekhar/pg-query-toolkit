@@ -12,7 +12,8 @@ A lightweight, reusable PostgreSQL toolkit for Node.js that standardizes databas
 ## Installation
 
 ```bash
-npm install @pgutils/pg-query-toolkit
+npm install pg-query-toolkit
+
 ```
 
 ## Quick Start
@@ -30,7 +31,7 @@ SLOW_QUERY_THRESHOLD=1000
 ### Basic Usage
 
 ```javascript
-const { query, withTransaction, paginate } = require('@pgutils/pg-query-toolkit');
+const { query, withTransaction, paginate } = require('pg-query-toolkit');
 
 // Simple query
 const users = await query('SELECT * FROM users WHERE active = $1', [true]);
