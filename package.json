@@ -1,5 +1,5 @@
 {
-  "name": "@pgutils/pg-query-toolkit",
+  "name": "pg-query-toolkit",
   "version": "1.0.0",
   "description": "A lightweight, reusable PostgreSQL toolkit for Node.js",
   "main": "src/index.js",
