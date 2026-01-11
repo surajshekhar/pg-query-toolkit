@@ -1,0 +1,37 @@
+{
+  "name": "@pgutils/pg-query-toolkit",
+  "version": "1.0.0",
+  "description": "A lightweight, reusable PostgreSQL toolkit for Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/example.js",
+    "example": "node test/example.js"
+  },
+  "keywords": [
+    "postgresql",
+    "postgres",
+    "pg",
+    "database",
+    "transaction",
+    "pagination",
+    "query",
+    "sql",
+    "toolkit",
+    "utility"
+  ],
+  "author": "Suraj Shekhar",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surajshekhar/pg-query-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/surajshekhar/pg-query-toolkit.git"
+  }
+}
